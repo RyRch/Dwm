@@ -50,7 +50,7 @@ static const char *mutevol[] = {
 
 /* tagging */
 static const char *tags[] = {
-	"csl", "www", "msg", "app"
+	"dev", "www", "chat", "app"
 };
 
 static const Rule rules[] = {
@@ -144,9 +144,6 @@ static Key keys[] = {
 	TAGKEYS(                        XK_ampersand,              0)
 	TAGKEYS(                        XK_eacute,                 1)
 	TAGKEYS(                        XK_quotedbl,               2)
-	TAGKEYS(                        XK_apostrophe,             3)
-	TAGKEYS(                        XK_parenleft,              4)
-	TAGKEYS(                        XK_minus,                  5)
 	TAGKEYS(                        XK_1,                      0)
  	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
