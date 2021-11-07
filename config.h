@@ -141,15 +141,10 @@ static Key keys[] = {
 		{.v = tmic } },
     { 0,                             XF86XK_WebCam,            spawn,
         {.v = webctoggle } },
-	TAGKEYS(                        XK_ampersand,              0)
-	TAGKEYS(                        XK_eacute,                 1)
-	TAGKEYS(                        XK_quotedbl,               2)
 	TAGKEYS(                        XK_1,                      0)
  	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
 	TAGKEYS(                        XK_4,                      3)
- 	TAGKEYS(                        XK_5,                      4)
- 	TAGKEYS(                        XK_6,                      5)
 };
 
 static Button buttons[] = {
